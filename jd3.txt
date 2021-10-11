@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>wisniaCSS</title>
+
+    <style>
+      #jd2 {
+        background-color:black;
+        border:3px dashed red;
+        font-size:1.4em;
+      }
+
+      #jd2:after {
+        content:'';
+        display:block;
+        clear:both;
+      }
+
+      #jd1 {
+        float:left;
+        width:30%;
+        background-color:lightgreen;
+      }
+
+      #jd2 {
+        float:left;
+        width:100%;
+        background-color:lightgreen;
+      }
+
+
+#jd3 {
+        float:left;
+        width:30%;
+        background-color:lightgreen;
+      }
+      div > div > div {
+        margin:15px;
+        padding:15px;
+        border:10px solid blue;
+        background-color:gold;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <div id="jd2">
+      <div id="jd1">
+      <div><img src="1.jpg" alt="smokepurpp" width="30%" ></div>
+      </div>
+
+      <div id="jd1">
+      <div><img src="1.jpg" alt="smokepurpp" width="30%"></div>
+      </div>
+
+<div id="jd3">
+      <div><img src="1.jpg" alt="smokepurpp" width="30%"></div>
+    </div>
+    </div>
+
+<style>
+table
+      {
+        width:100%;
+        border: 4px solid red;
+      }
+ 
+      tr
+      {
+        width:100%;
+        border: 1px solid red;
+      }
+ 
+      td#jd4
+      {
+        width:60%;
+        border: 2px solid black;
+      }
+ 
+      td#jd5
+      {
+
+        width:40%;
+        border: 2px solid black;
+      }
+ .jd6
+{
+float:left;
+width:30%
+}
+.jd5
+{
+float:left;
+width:30%;
+}
+ </style>
+ 
+<table>
+        <tr>
+ 
+          <td id="jd4">
+            <div class="jd6"><img src="1.jpg"  width="50%" ></div>
+            <div class="jd6"><img src="1.jpg"  width="50%" ></div>
+          </td>
+ 
+          <td id="jd5">
+            <div class="jd5"><img src="1.jpg"  width="50%" ></div>
+            <div class="jd5"><img src="1.jpg"  width="50%" ></div>
+          </td>
+ 
+        </tr>
+      </table>
+
+
+
+
+  </body>
+</html>
